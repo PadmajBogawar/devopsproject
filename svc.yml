@@ -5,6 +5,7 @@ metadata:
     app: tomcat
   name: tomcat
 spec:
+  type: Nodeport
   ports:
   - port: 8080
     protocol: TCP
